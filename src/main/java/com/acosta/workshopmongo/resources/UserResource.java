@@ -12,7 +12,7 @@ import com.acosta.workshopmongo.domain.User;
 import com.acosta.workshopmongo.services.UserService;
 
 @RestController
-@RequestMapping(value = " /users")
+@RequestMapping(value = "/users")
 public class UserResource {
 	
 	@Autowired
